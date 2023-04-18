@@ -1,0 +1,29 @@
+<!--Page with an image, text box and butonn to submit-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flag Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--Get style.css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Flag Game</h1>
+<img id="flagImg" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rotating_earth_%28large%29_transparent.gif" alt="Flag" width="300" height="200">
+<div id="stats">
+  <span id="correct">Correct: 0</span>
+  <span class="statItem" id="wrong">Wrong: 0</span>
+  <span class="statItem" id="accuracy">Accuracy: 0%</span>
+</div>
+<p id="attempts">Attempts : 0/3</p>
+<!--Make sure the form has the autocomplete function switched off:-->
+<div>
+  <input type="text" id="input" placeholder="Guess the flag..." />
+</div>
+<ul class="list"></ul>
+<!--get index.js-->
+<script src="index.js"></script>

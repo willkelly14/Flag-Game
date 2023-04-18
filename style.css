@@ -1,0 +1,68 @@
+/*Set background to dark grey*/
+body {
+    background-color: #181818;
+    color: white;
+    /*Center everything*/
+    text-align: center;
+    /*Set font to Arial*/
+    font-family: 'Space Mono', monospace;
+    height: 700px;
+}
+
+#input {
+    width: 90%;
+    max-width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*Center the form*/
+    margin: 0 auto;
+  }
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #645979;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+}
+.list {
+    width: 90%;
+    max-width: 320px;
+    background-color: #ffffff;
+    color: #181818;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 0;
+}
+.list-items {
+    padding: 10px 10px;
+}
+.list-items:hover {
+    background-color: #dddddd;
+}
+
+/* Style the statistics box in index.html */
+#stats {
+    width: 90%;
+    max-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #303030;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;
+    /*Center the box without margin 0 auto*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statItem {
+    margin-left: 25px;
+}
